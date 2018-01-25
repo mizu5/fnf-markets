@@ -1,0 +1,1093 @@
+@import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
+body {font-family: "Noto Sans CJK KR", sans-serif;}
+
+/************ MOBILE HEADER ***********/
+.pc_header {display: none;}
+    
+.mobile_header .header_bg {
+    background-color: #333333;
+    padding: 0.9375rem 0 ;
+}
+
+.mobile_header .mobile_lang {float: right;}
+
+.mobile_header .mobile_lang li {
+    float: left;
+    font-size: 1rem;
+    color: #fff;
+    padding: 0 0.9375rem;
+    border-right: 0.0625rem solid #fff;
+}
+
+.mobile_header .mobile_lang li:last-child {
+    border: 0;
+}
+
+.mobile_header .menu_wrap {
+    padding: 2.5rem 0 1.563rem 0;
+}
+
+.mobile_header .mobile_logo {
+    float: left;
+    margin-left: 1.25rem;
+}
+
+.mobile_header .hamburger {
+    float: right;
+    margin-right: 1.25rem;
+}
+
+.mobile_header img{width: 100%;}
+
+/************ MOBILE SUB BANNER *************/
+.pc_sub_banner {display: none;}
+.mobile_sub_banner {text-align: center;}
+.mobile_sub_banner img {width: 100%;}
+
+/************* sub navi page none *************/
+.sub_navi {
+    display: block;
+    float: right;
+    padding-top: 3.75rem;
+    margin-right: 1.25rem;
+}
+
+.product_navi {
+    display: block;
+    float: right;
+    margin-top: 5.625rem;
+    margin-right: 1.25rem;
+}
+
+.sub_navi li,
+.product_navi li {
+    float: left;
+    font-size: 1.125rem;
+    color: #808080;
+}
+
+/************* SUB MENU *************/ 
+.sub_menu {    
+    box-sizing: border-box;
+    padding: 2.5rem 1.25rem 60px 1.25rem;
+}
+
+.product_tab_menu {padding: 0 1.25rem;}
+
+.sub_menu table,
+.product_tab_menu table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.sub_menu tr td {
+    width: 25%;
+    font-size: 0.875rem;
+    font-weight: bold;
+    color: #c9caca;
+    text-align: center;
+    border: 0.0625rem solid #c9caca;
+    border-bottom: 0.0625rem solid #204b97;
+}
+
+.sub_menu tr td a {
+    display: block;
+    padding: 0.625rem 0;
+}
+
+.sub_menu tr td.active {
+    color: #204b97;
+    border-color: #204b97;
+    border-bottom: 0;
+}
+
+.sub_menu tr td.active_border {
+    border-right: 0.0625rem solid #204b97;
+}
+
+.sub_menu tr td.none {
+    border: 0;
+    border-bottom: 0.0625rem solid #204b97;
+}
+
+/********** MOBILE GREETING *********/
+.pc_greeting {display: none;}
+
+.mobile_greeting {
+    box-sizing: border-box;
+    padding: 0 1.375rem;
+    margin-bottom: 6.25rem;
+}
+
+.mobile_greeting h2 {
+    font-size: 1.25rem;
+    line-height: 1.2;
+}
+
+.mobile_greeting .color {color: #204b97;}
+
+.mobile_greeting .greeting_img {
+    margin: 1.875rem 0 1.25rem 0;
+}
+
+.mobile_greeting .greeting_img img {width: 100%;}
+
+.mobile_greeting .greeting_text p { 
+    font-size: 1.063rem;
+    color: #9fa0a0;
+    line-height: 1.7;
+}
+
+/********** PATENT & CERTIFICATE *********/
+.certificate {
+    box-sizing: border-box;
+    padding: 0 1.25rem;
+    padding-bottom: 4.375rem;
+}
+
+.certificate img {width: 100%;}
+
+/************** MOBILE LOCATION **************/
+.pc_location {display: none;}
+
+.mobile_location {
+    box-sizing: border-box;
+    padding: 0 1.25rem;
+}
+
+ .map {
+    background-color: #000;
+    width: 100%;
+    height: 36%;
+    margin-bottom: 1.563rem;
+}
+
+.mobile_location .address_img {
+    margin-bottom: 4.375rem;
+}
+
+.mobile_location .address_img img {width: 100%;}
+
+/************** MOBILE FEATURE **************/
+.pc_feature {display: none;}
+
+.mobile_feature {
+    box-sizing: border-box;
+    padding: 0 1.25rem;
+    margin-bottom: 4.375rem;
+}
+
+.mobile_feature img {width: 100%;}
+
+.mobile_feature .feature_text {
+    padding: 0.625rem 0;
+}
+
+.mobile_feature .feature_text p {
+    float: left;
+    font-size: 0.6875rem;
+    color: #727070;
+    margin-right: 0.3125rem;
+    padding-bottom: 0.625rem;
+}
+
+/************** STRENGTH **************/
+.pc_strength {display: none;}
+
+.mobile_strength {
+    box-sizing: border-box;
+    padding: 0 1.25rem;
+    padding-bottom: 4.375rem;
+}
+
+.mobile_strength img {width: 100%;}
+
+/*********** MOBILE PURPOSE OF USE  ***********/
+.pc_purpose {display: none;}
+.mobile_purpose {
+    box-sizing: border-box;
+    padding: 0 1.25rem;
+}
+
+.mobile_purpose img {width: 100%;}
+
+.mobile_purpose .color {color: #204b97;}
+
+.mobile_purpose .purpose_text {
+    padding: 2.188rem 0 4.375rem;
+}
+
+.mobile_purpose h3 {
+    font-size: 1.438rem;
+    color: #204b97;
+    margin-bottom: 0.9375rem;
+}
+
+.mobile_purpose p {
+    font-size: 1.063rem;
+    line-height: 1.3;
+    margin-bottom: 1.75rem;
+}
+
+/*************** 시공사례 *****************/    
+.case img {width: 100%;}
+
+.case {padding: 0 0 4.375rem 0;}
+
+.case h4 {
+    font-size: 1.25rem;
+    color: #00a0e2;
+    text-align: center;
+}
+    
+.case h2 {
+    font-size: 1.375rem;
+    color: #49484b;
+    text-align: center;
+    line-height: 1.3;
+    margin-bottom: 2.188rem;
+    box-sizing: border-box;
+    padding: 0 2.5rem;
+}
+    
+.case .case_list li {
+    width: 50%;
+    float: left;
+    text-align: center;
+    margin-bottom: 2.5rem;
+    box-sizing: border-box;
+    padding: 0 0.625rem;
+}
+    
+.case .case_list li h5 {
+    font-size: 1rem;
+    font-weight: normal;
+    color: #7b7272;
+    padding: 1.25rem 0 0.625rem 0;
+}
+    
+.case .case_list li p {
+    font-size: 0.875rem;
+    color: #7b7272;
+}
+
+/************* 설치 사례 상세 *************/
+.case_detail {
+    box-sizing: border-box;
+    padding: 0 1.25rem;
+}
+
+.case_detail h2 {
+    font-size: 1.5rem;
+    padding: 0 0 1.438rem 0;
+}
+
+.case_detail .case_img {
+    margin: 2.813rem 0;
+    padding-top: 2.813rem;;
+    border-top: 0.0625rem solid #65697c;
+    border-bottom: 0.0625rem solid #65697c;
+}
+
+.case_detail .case_img img {
+    width: 100%;
+    padding-bottom: 48px;
+}
+
+.case_detail .btn {
+    text-align: center;
+    margin-bottom: 4.375rem;
+}
+
+.case_detail .btn a {
+    font-size: 0.875rem;
+    padding: 0.75rem 2.5rem;
+    border: 0.0625rem solid #4d4d4d;
+}
+
+/********** MOBILE PRODUCT DETAIL ***********/
+/* 계통도 에어히트펌프 탭 */
+.air tr td{
+    width: 25%;
+    font-size: 0.875rem;
+    font-weight: bold;
+    color: #c9caca;
+    text-align: center;
+    border: 0.0625rem solid #c9caca;
+    border-bottom: 0.0625rem solid #309585;
+}
+
+.air tr td a {
+    display: block;
+    padding: 0.625rem 0;
+}
+
+.air tr td.active {
+    color: #309585;
+    border-color: #309585;
+    border-bottom: 0;
+}
+
+.air tr td.active_border {
+    border-right: 0.0625rem solid #309585;
+}
+
+.air tr td.none {
+    border: 0;
+    border-bottom: 0.0625rem solid #309585;
+}
+
+/* 계통도 지열히트펌프 탭 */
+.ground tr td{
+    width: 25%;
+    font-size: 0.875rem;
+    font-weight: bold;
+    color: #c9caca;
+    text-align: center;
+    border: 0.0625rem solid #c9caca;
+    border-bottom: 0.0625rem solid #794237;
+}
+
+.ground tr td a {
+    display: block;
+    padding: 0.625rem 0;
+}
+
+.ground tr td.active {
+    color: #794237;
+    border-color: #794237;
+    border-bottom: 0;
+}
+
+.ground tr td.active_border {
+    border-right: 0.0625rem solid #794237;
+}
+
+.ground tr td.none {
+    border: 0;
+    border-bottom: 0.0625rem solid #794237;
+}
+
+/* 계통도 에어히트펌프 탭 */
+.hybrid tr td{
+    width: 25%;
+    font-size: 0.875rem;
+    font-weight: bold;
+    color: #c9caca;
+    text-align: center;
+    border: 0.0625rem solid #c9caca;
+    border-bottom: 0.0625rem solid #615084;
+}
+
+.hybrid tr td a {
+    display: block;
+    padding: 0.625rem 0;
+}
+
+.hybrid tr td.active {
+    color: #615084;
+    border-color: #615084;
+    border-bottom: 0;
+}
+
+.hybrid tr td.active_border {
+    border-right: 0.0625rem solid #615084;
+}
+
+.hybrid tr td.none {
+    border: 0;
+    border-bottom: 0.0625rem solid #615084;
+}
+
+.pc_wrap {display: none;}
+
+.product_tab li {
+    width: 25%;
+    float: left;
+    border-right: 1% solid #d3d3d4;
+}
+
+.product_tab li:last-child {border: 0;}
+
+.product_tab li img {width: 100%;}
+
+/* mobile product content image */
+.mobile_pump {padding: 40px 0 10.63rem 0;}
+
+.mobile_pump img,
+.mobile_pump_detail img {width: 100%;}
+
+.mobile_pump_detail {padding: 4.063rem 0;}
+
+.mobile_pump_detail h5,
+.pc_pump_detail h5 {
+    display: inline-block;
+    font-size: 0.75rem;
+    padding-top: 0.625rem;
+    margin-left: 1.25rem;
+    border-bottom: 0.0625rem solid #000;
+}
+
+.mobile_pump_detail p,
+.pc_pump_detail p {
+    font-size: 0.75rem;
+    line-height: 1.5;
+    box-sizing: border-box;
+    padding: 0.3125rem 1.25rem 0 1.25rem;
+}
+
+.product_btn {display: none;}
+
+/*** FACILITY INQURY ***/
+.cs_wrap {
+    box-sizing: border-box;
+    padding: 0 1.25rem;
+}
+
+.cs_title h2 {
+    font-size: 1.5rem;
+    padding-right: 1.875rem;
+}
+
+.cs_title p {
+    font-size: 1.125rem;
+    color: #7c7c7c;
+    padding-top: 0.625rem;
+}
+
+.cs_title {padding-bottom: 1.25rem;}
+
+.inqury_form,
+.as_form {padding-bottom: 1.25rem;}
+
+.inqury_form table{
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #eff3f8;
+}
+
+.as_form table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #faf8f7;
+}
+
+.inqury_form td,
+.as_form td {
+    box-sizing: border-box;
+    padding: .7rem;
+    border: 0.0625rem solid #bcbcbc;
+    border-left: 0;
+    border-right: 0;
+}
+
+.inqury_form .labels,
+.as_form .labels {
+    font-size: 0.75rem;
+    font-weight: bold;
+    color: #4d4d4d;
+}
+
+.color {color: #204b97;}
+
+.inqury_form .input_box,
+.as_form .input_box {
+	vertical-align: middle;
+}
+
+.inqury_form input,
+.as_form input {
+    width: 100%;
+    height: 2.5rem;
+}
+
+.inqury_form .textarea,
+.as_form .textarea {
+    width: 100%;
+    height: 12.5rem;
+}
+
+/*** send button ***/
+.inqury_btn,
+.as_btn {
+    text-align: center;
+    padding-bottom: 4.375rem;
+}
+
+.inqury_btn .btn,
+.as_btn .btn,
+.download_btn {
+    border: 0;
+    background-color: transparent;
+} /* 인쿼리 끝 */
+
+/************* CATALOG DOWNLOAD *************/
+.catalog_title h2 {
+    font-size: 1.5rem;
+    padding-bottom: 0.8125rem;
+    margin-bottom: 2.5rem;
+    border-bottom: 1px solid #9fa0a0;
+}
+
+.catalog .catalog_list li {
+    float: left;
+    width: 33.33%;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 0 1.875rem;
+}
+
+.catalog .catalog_list li img {width: 100%;}
+
+.catalog .catalog_list li p {
+    font-size: 0.875rem;
+    height: 3.125rem;
+    padding-top: 0.9375rem;
+    border-bottom: 0.0625rem solid #808080;
+}
+
+.catalog .catalog_list .download_btn {
+    margin-top: 1.25rem;
+    margin-bottom: 4.375rem;
+   
+}
+
+.btn-img {width: 100%;}
+
+/************* MOBILE FOOTER *************/
+.pc_footer {display: none;}
+    
+.mobile_footer {
+    text-align: center;
+    background-color: #333333;
+}
+    
+.mobile_footer_1 {padding-top: 1.875rem;}
+    
+.mobile_footer_1 .sns li {
+    display: inline-block;
+    padding: 1.25rem 0.1875rem;
+}
+    
+.mobile_footer_1 .footer_logo img {width: 70%;}
+
+.mobile_footer_2 {padding-bottom: 0.625rem;}
+    
+.mobile_footer_2 p {
+    font-size: 0.8125rem;
+	line-height: 1.3;
+    color: #c0bab9;
+    padding-bottom: 0.625rem;
+}
+    
+.mobile_footer_3 {
+    padding: 1.25rem 0;
+    border-top: 0.0625rem solid #606060;
+}
+    
+.mobile_footer_3 p {
+    font-size: 0.75rem;
+    color: #c0bab9;
+    padding-bottom: 0.9375rem;
+}
+
+.mobile_footer_3 .policy_btn li {
+    display: inline-block;
+    font-size: 0.75rem;
+    color: #fff;
+    padding: 0 0.9375rem;
+    border-right: 0.0625rem solid #fff;
+}
+    
+.mobile_footer_3 .policy_btn li:last-child {
+    border: 0;
+}
+
+/************ MEDIA QUERY 530PX ************/
+@media (min-width: 414px) {
+    .mobile_greeting h2 {
+        font-size: 1.625rem;
+        line-height: 1.2;
+    }
+}
+
+@media (min-width: 530px) {
+    .pc_footer {display: none;}
+
+    /* footer 1 */
+    .mobile_footer_1 {padding: 1.875rem 1.25rem;}
+
+    .mobile_footer_1 img {width: 100%;}
+
+    .mobile_footer_1 .footer_logo {float: left;}
+
+    .mobile_footer_1 .sns {float: right;}
+
+    .mobile_footer_1 .sns li {
+        float: left;
+        padding: 0 0.3125rema;
+    }
+    
+    .mobile_footer_1 .footer_logo img {width: 100%;}
+
+    /* footer 2 */
+    .mobile_footer_2 {padding: 0 1.25rem 0.9375rem 1.25rem;}
+
+    .mobile_footer_2 p {text-align: left;}
+
+    /* footer 3 */
+    .mobile_footer_3 {padding: 1.25rem;}
+
+    .mobile_footer_3 p {float: left;}
+
+    .mobile_footer .policy_btn {float: right;}
+
+    .mobile_footer .policy_btn li {float: left;}
+
+    .mobile_footer .policy_btn li:last-child {
+        padding-right: 0;
+    }
+    
+    .inqury_form .labels,
+    .as_form .labels {font-size: 0.875rem;}
+}
+
+/************ MEDIA QUERY 768 ************/
+@media (min-width: 768px) {    
+    /* SUB PAGE NAVIGATION */
+    /* 프로덕트 네비는 모바일 */
+    .sub_navi {
+        display: block;
+        float: right;
+        padding: 4.375rem 0 2.5rem 0;
+        margin-right: 1.25rem;
+    }
+    
+    .product_navi {
+        display: block;
+        float: right;
+        padding-bottom: 2.5rem;
+        margin-right: 1.25rem;
+		margin-top: 0;
+    }
+
+    .sub_navi li,
+    .product_navi li {
+        float: left;
+        font-size: 1.125rem;
+        color: #808080;
+    }
+
+    /* SUB MENU */
+    .sub_menu {
+        box-sizing: border-box;
+        padding: 0 1.25rem;
+    }
+    
+    .sub_menu tr td {font-size: 1rem;}
+    
+    /* SUB GREETING */
+    .mobile_greeting {display: none;}
+    
+    .pc_greeting {
+        display: block;
+        box-sizing: border-box;
+        padding: 0 1.25rem;
+    }
+    
+    .pc_greeting img {width: 100%;}
+    
+    .pc_greeting .wrap1 {padding-bottom: 4.375rem;}
+
+    .greeting_img1, .greeting_text1,
+    .greeting_img2, .greeting_text2 {
+        width: 50%;
+        float: left;
+    }
+    
+    .greeting_text1 {
+        box-sizing: border-box;
+        padding-left: 2.813rem;
+    }
+    
+    .greeting_text2 {
+        box-sizing: border-box;
+        padding-right: 2.813rem;
+    }
+    
+    .pc_greeting h2 {
+        font-size: 2.25rem;
+        padding-bottom: 1.875rem;
+    }
+    
+    .pc_greeting p {
+        font-size: 1.125rem;
+        color: #808080;
+        line-height: 1.7;
+    }
+    
+    /* SUB CERTIFICATE */
+    .certificate {
+        box-sizing: border-box;
+        padding: 4.375rem 1.25rem;
+    }
+    
+    /* PC LOACTION */
+    .mobile_location {display: none;}
+    
+    .pc_location {
+        display: block;
+        box-sizing: border-box;
+        padding: 0 1.25rem;
+    }
+    
+    .map {
+        height: 55%;
+        margin: 4.688rem 0 2.813rem 0;
+    }
+    
+    .pc_location .address_img {
+        box-sizing: border-box;
+        padding: 0 1.25rem;
+        margin-bottom: 4.375rem;
+    }
+    
+    .pc_location .address_img img {width: 100%;}
+    
+    /* PC FEATURE */
+    .mobile_feature {display: none;}
+    
+    .pc_feature {
+        display: block;
+        box-sizing: border-box;
+        padding: 4.375rem 1.25rem;
+    }
+    
+    .pc_feature img {width: 100%;}
+    
+    /* STRENGTH */
+    .mobile_strength {display: none;}
+    
+    .pc_strength {
+        display: block;
+        box-sizing: border-box;
+        padding: 4.375rem 1.25rem;
+    }
+    
+    .pc_strength img {width: 100%;}
+    
+    /* PC PURPOSE */
+    .mobile_purpose {display: none;}
+    
+    .pc_purpose {
+        display: block;
+        box-sizing: border-box;
+        padding: 5rem 1.25rem;
+    }
+    
+    .pc_purpose .text_wrap {
+        width: 60%;
+        float: left;
+    }
+    
+    .pc_purpose .img_wrap {
+        width: 40%;
+        float: left;
+    }
+    
+    .pc_purpose .img_wrap img {width: 100%;}
+    
+    .pc_purpose .purpose_title h2 {
+        float: left;
+        font-size: 2.25rem;
+        padding-right: 0.625rem;
+    }
+    
+    .pc_purpose .purpose_title h3 {
+        font-size: 1.25rem;
+        color: #204b97;
+        padding-top: 0.625rem;
+    }
+    
+    .pc_purpose .purpose_title {
+        padding-bottom: 2.188rem;
+    }
+    
+    .pc_purpose .purpose_text h4 {
+        font-size: 1.125rem;
+        font-weight: bold;
+        color: #204b97;
+        padding-bottom: 0.625rem;
+    }
+    
+    .pc_purpose .purpose_text p {
+        font-size: 1rem;
+        line-height: 1.7;
+        padding-bottom: 1.875rem;
+    }
+    
+    /* 설치 사례 */
+    .case {padding: 4.375rem 0;}
+    
+    .case .case_list li {width: 33.33%;}
+    
+    .case h2 {font-size: 2.25rem;}
+    
+    /* 설치 사례 상세 */
+    .case_detail h2 {
+        font-size: 2.25rem;
+        padding: 4.375rem 0 1.438rem 0;
+    }
+    
+    /* 제품 상세 페이지 */
+    .mobile_wrap {display: none;}   
+    .mobile_sub_banner {display: none;}
+    
+    .pc_sub_banner {
+        display: block;
+        text-align: center;
+    }
+    
+    .pc_sub_banner img {width: 100%;}
+        
+    .pc_wrap {
+        display: block;
+        box-sizing: border-box;
+        padding: 0 1.25rem;
+    }
+    
+    .pc_pump {padding: 5.313rem 0 4.688rem 0;}
+    
+    .pc_pump img,
+    .pc_pump_detail img {width: 100%;}
+    
+    .pc_pump_detail {
+        padding: 5rem 0;
+    }
+    
+    .pc_pump_detail h5, .pc_pump_detail p {
+        margin: 0;
+        padding-left: 0;
+    }
+    
+    /* 견적 요청 하기 */
+    .cs_title {padding: 4.688rem 0 1.25rem 0;}
+    
+    .cs_title h2 {
+        float: left;
+        font-size: 2.25rem;
+    }
+    
+    .inqury_form td,
+    .as_form td {
+        box-sizing: border-box;
+        padding: 1.25rem;
+    }
+
+    .inqury_form .labels,
+    .as_form .labels {
+        width: 20%;
+    }
+    
+    /* 카탈로그 이미지 */
+    .catalog_title h2 {
+        font-size: 2.25rem;
+        padding: 5.313rem 0 1.563rem 0;
+        border-bottom: 0.0625rem solid #808080;
+    }
+    
+    .catalog .catalog_list li {
+        box-sizing: border-box;
+        padding: 0 2.5rem;
+        margin-top: 3.438rem;
+    }
+    
+    .catalog .catalog_list li img {width: auto;}
+    
+    .catalog .catalog_list li p {
+        font-size: 0.875rem;
+        height: auto;
+        padding: 0.9375rem 0;
+    }
+    
+    /* FOOTER */
+    .mobile_footer {display: none;}
+    
+    .pc_footer {
+        display: block;
+        background-color: #333333;
+    }
+    
+    /*footer top */
+    .footer_top {
+        padding: 8px 0;
+        border-bottom: 0.0625rem solid #666666;
+    }
+    
+    .pc_footer .footer_top_1 li {
+        float: left;
+        font-size: 0.8125rem;
+        color: #fff;
+        padding: 0 1.25rem;
+        border-right: 0.0625rem solid #fff;
+        margin-top: 0.4375rem;
+    }
+    
+    .pc_footer .footer_top_1 li:last-child {
+        border: 0;
+    }
+    
+    .pc_footer .footer_top_2 {float: right;}
+    
+    .pc_footer .footer_top_2 li {
+        float: left;
+        padding-right: 0.9375rem;
+    }
+    
+    /* footer bottom */
+    .footer_bottom {padding: 3.125rem 0 2.5rem 0;}
+    
+    .footer_bottom .footer_logo {
+        float: left;
+        margin: 0 4.375rem 0 1.25rem;
+    }
+    
+    .footer_bottom .footer_bottom_1 {float: left;}
+    
+    .footer_bottom .footer_bottom_1 li {
+        font-size: 0.9375rem;
+        color: #c0bab9;
+        padding-bottom: 0.625rem;
+    }
+}
+
+/************ MEDIA QUERY 1025 ************/
+@media (min-width: 1025px) {
+    /* HEADER */
+    .mobile_header {display: none;}
+    .pc_header {display: block;}
+    
+    .pc_header .header_bar {
+        background-image: url(../img/bar.jpg);
+        height: 0.625rem;
+    }
+    
+    .pc_header .header_wrap {
+        width: 1620px;
+        margin: 0 auto;
+        padding: 2.813rem 0 1.563rem;
+    }
+    
+    .pc_header .logo {
+        float: left;
+        margin-right: 2.188rem;
+    }
+    
+    .pc_header .menu {
+        float: left;
+        margin-top: 0.4375rem;
+    }
+    
+    .pc_header .menu li {
+        float: left;
+        font-size: 1.188rem;
+        font-weight: bold;
+        color: #2e373e;
+        margin: 0 1.875rem;
+    }
+    
+    .pc_header .lang {
+        float: right;
+        margin-top: 0.4375rem;
+    }
+    
+    .pc_header .lang li {
+        float: left;
+        font-size: 0.875rem;
+        padding: 0 0.9375rem;
+        border-right: 0.0625rem solid #000;
+    }
+    
+    .pc_header .lang li:last-child {border: 0;}
+    
+    /* SUB BANNER */
+
+    
+    /* SUB MENU */
+    .sub_menu {
+        box-sizing: border-box;
+        padding: 0;
+    }
+    
+    .pc_greeting {
+        display: block;
+        box-sizing: border-box;
+        padding: 3.75rem 0;
+    }
+    
+    .certificate {
+        box-sizing: border-box;
+        padding: 4.375rem 0;
+    }
+    
+    /* PC LOCATION */
+    .pc_location {
+        box-sizing: border-box;
+        padding: 0;
+    }
+    
+    .map {height: 67%;}
+    
+    .pc_location .address_img {
+        box-sizing: border-box;
+        padding: 0;
+    }
+    
+    /* PC FEATURE */
+    .pc_feature {
+        box-sizing: border-box;
+        padding: 4.375rem 0;
+    }
+    
+    /* STRENGTH */
+    .pc_strength {
+        box-sizing: border-box;
+        padding: 4.375rem 0;
+    }
+    
+    /* PC PURPOSE */
+    .pc_purpose {
+        box-sizing: border-box;
+        padding: 5rem 0;
+    }
+    
+    /* 설치 사례 */
+    .case_detail {
+        box-sizing: border-box;
+        padding: 0;
+    }
+    
+    /* 제품 디테일 페이지내 버튼 */
+    .pump_btn {position: relative;}
+    
+    .product_btn {
+        display: block;
+        position: absolute;
+        top: 5.313rem;
+        right: 0;
+    }
+    
+    .product_btn img {width: 100%;}
+    
+    /* 고객센터 페이지 패딩 */
+    .cs_wrap {
+        box-sizing: border-box;
+        padding: 0;
+    }
+    
+    /* 카탈로그 다운 */
+    .catalog .catalog_list li {
+        box-sizing: border-box;
+        padding: 0 4rem;
+    }
+}

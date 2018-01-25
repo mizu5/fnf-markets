@@ -1,0 +1,15 @@
+.m_menu_list{	
+	clear:both;
+	border-top:10px solid #3470b3;
+	background-color:#efefef;
+}
+.m_menu_list ul li{
+	border-bottom:1px solid #3470b3;
+}
+.m_menu_list a{	 
+	display:block;
+	padding:15px 20px;
+}
+.hamburger{
+	cursor:pointer;
+}
